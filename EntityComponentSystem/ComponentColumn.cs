@@ -4,7 +4,7 @@ public class ComponentColumn(Type componentType)
 {
     public Type ComponentType { get; } = componentType;
     private readonly List<IComponent> _components = [];
-
+    
     public int AddComponent(IComponent component)
     {
         _components.Add(component);
